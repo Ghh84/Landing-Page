@@ -1,12 +1,53 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
 body{
     background-color: bisque;
-    font-family: roboto;
+    font-family: sans-serif;
 }
-
-.nav{
+/*Header of the web*/
+.header{
     background-color: rgb(24, 39, 107);
     height: 400px;
+    display: block;
 }
+.header-nav{
+    display: flex;
+}
+.logo{
+    border-radius: 25px;
+    padding: 5px;
+    margin:10px;
+}
+.logo:hover{
+	opacity: 1;
+}
+.nav{
+    background-color: rgb(24, 39, 107);
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+.nav-item{
+    font-weight: 900;
+    height: 50px;
+    padding: 5px;
+    margin:10px;
+    justify-content: right;
+}
+.nav-item:hover{
+    color: blue;
+    background: #8a9788;
+    border: 1px solid #d0d0d0;
+}
+
+
+/* main part of the web*/
 .upper-body-content{
     background-color:aliceblue;
     height: 200px;
