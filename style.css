@@ -16,6 +16,7 @@ body{
     height: 400px;
     display: block;
 }
+/* header navigation */
 .header-nav{
     display: flex;
 }
@@ -45,7 +46,37 @@ body{
     background: #8a9788;
     border: 1px solid #d0d0d0;
 }
+/* Header body style*/
+.header-body{
+    display: flex;
+}
 
+.desc{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.image-placeholder{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+img{
+    border-radius: 25px;
+}
+button{
+    margin: 20px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+#title{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 /* main part of the web*/
 .upper-body-content{
