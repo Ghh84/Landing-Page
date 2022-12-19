@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+    font-family: roboto;
+}
+
+.nav{
+    background-color: rgb(24, 39, 107);
+    height: 400px;
+}
+.upper-body-content{
+    background-color:aliceblue;
+    height: 200px;
+}
+.center-body-content{
+    background-color: rgb(211, 209, 206);
+    height: 200px;
+}
+.lower-body-content{
+    background-color:aliceblue;
+    height: 200px;
+}
+.footer{
+    background-color: blueviolet;
+    height: 70px;
+}
