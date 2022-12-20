@@ -119,7 +119,7 @@ button:hover{
 }
 /*footer styling*/
 .footer{
-    background-color: #262626;
+    background-image: url(./images/bg2.jpeg);
     height: 70px;
     margin: 0;
     padding:0;
