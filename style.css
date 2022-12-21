@@ -134,6 +134,113 @@ button:hover{
     padding: 10px;
 }
 
+.sec-13{
+    font-size: 30px;
+    align-items: center;
+}
+
+.btn-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.load-btn {
+	background:linear-gradient(to bottom, #1d1c1a 5%, #101010 100%);
+    height: 50px;
+    width: 400px;
+	border-radius:11px;
+	border:2px solid #e2e2dd;
+	cursor:pointer;
+	color:#f1f1f3;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+    justify-content: center;
+    align-items: centers;
+}
+.load-btn:hover {
+	background:linear-gradient(to bottom, #14120f 5%, #624b2e 100%);
+	background-color:#191612;
+}
+.load-btn:active {
+	position:relative;
+	top:1px;
+}
+.lower-tex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    font-weight:bold;
+    color: rgb(15, 13, 13);
+}
+
+.eri-resta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+    color: rgb(26, 24, 24);    
+    overflow: hidden;
+    animation:typing 2s steps(80,end) infinite;
+    white-space:nowrap;
+}
+
+@keyframes typing {
+    from{
+        width: 80%;
+    }
+    to{
+        width: 100%;
+    }
+}
+.input-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+input{   
+    border: 0;
+    outline: 0;
+    border-bottom: 3px solid rgb(11, 11, 14);
+    width: 200px;
+    height: 30px;
+}
+.sub-btn-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.subscribe-btn {
+	background:linear-gradient(to bottom, #1d1c1a 5%, #101010 100%);
+    height: 30px;
+    width: 100px;
+	border-radius:11px;
+	border:2px solid #151514;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+}
+.subscribe-btn:hover {
+	background:linear-gradient(to bottom, #14120f 5%, #624b2e 100%);
+	background-color:#191612;
+}
+.subscribe-btn:active {
+	position:relative;
+	top:1px;
+}
+
+
 /*footer styling*/
 .footer{
     background-image: url(./images/bg2.jpeg);
