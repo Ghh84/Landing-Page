@@ -7,7 +7,7 @@
   }
 
 body{
-    background-color: bisque;
+    background-image: url(./images/bg3.jpeg);
     font-family: sans-serif;
 }
 /*Header of the web*/
@@ -109,14 +109,31 @@ button:hover{
     margin: 10px;
 }
 
-.center-body-content{
+.center-body{
     background-color: rgb(211, 209, 206);
     height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    display: block;
 }
+
+.center-body-content{
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    display: block;    
+}
+
 .lower-body-content{
-    background-color:aliceblue;
+    background-image: url(./images/advertise.jpg);
     height: 300px;
+    margin: 20px;
+    padding: 10px;
 }
+
 /*footer styling*/
 .footer{
     background-image: url(./images/bg2.jpeg);
