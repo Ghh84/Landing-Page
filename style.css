@@ -325,3 +325,54 @@ input{
   ul li:nth-child(4) a:before {
     background: #dd4b39;
   }
+
+  /*
+    Login file styling
+  */
+
+  .login-body{
+    background-image: url(./images/thanksgiving.webp);
+  }
+
+  .login-form{
+    display: block;
+    border-radius: 25px;
+    background-image: url(./images/advertise.jpg);
+    font-size: 40px;
+    margin: 100px;
+    padding: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .username-input,.password-input{
+    margin:20px;
+    padding: 20px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;    
+  }
+  .login-form-btn{
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .login,.clear {
+	background:linear-gradient(to bottom, #1d1c1a 5%, #101010 100%);
+    height: 40px;
+    width: 100px;
+	border-radius:11px;
+	border:2px solid #646444;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+}
+.login,.clear:hover {
+	background:linear-gradient(to bottom, #294063 5%, #3c0da8 100%);
+	background-color:#5c4426;
+}
+.login,.clear:active {
+	position:relative;
+	top:1px;
+}
