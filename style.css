@@ -7,7 +7,8 @@
   }
 
 body{
-    background-image: url(./images/bg3.jpeg);
+    background-image: url(./images/greenBg.webp);
+    background-size: cover;
     font-family: sans-serif;
 }
 /*Header of the web*/
@@ -15,6 +16,10 @@ body{
     background-color: rgb(24, 39, 107);
     height: 400px;
     display: block;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 /* header navigation */
 .header-nav{
@@ -53,6 +58,16 @@ body{
 .desc{
     margin-top: 100px;
     margin-left: 50px;
+    display: block;
+}
+#ads-text{
+    margin: 30px;
+}
+.signup{
+    padding: 5px;
+    margin:20px;
+    text-decoration: none;
+
 }
 
 .image-placeholder{
@@ -356,7 +371,7 @@ input{
     align-items: center;
     justify-content: center;
   }
-  .login,.clear {
+  .login,.clear,.signup {
 	background:linear-gradient(to bottom, #1d1c1a 5%, #101010 100%);
     height: 40px;
     width: 100px;
@@ -368,11 +383,11 @@ input{
 	font-size:20px;
 	font-weight:bold;
 }
-.login,.clear:hover {
+.login,.clear,.signup:hover {
 	background:linear-gradient(to bottom, #294063 5%, #3c0da8 100%);
 	background-color:#5c4426;
 }
-.login,.clear:active {
+.login,.clear.signup:active {
 	position:relative;
 	top:1px;
 }
