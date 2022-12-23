@@ -421,10 +421,6 @@ input{
     margin-bottom: 12px;
     cursor: pointer;
     font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
   }
   
   /* Hide the browser's default checkbox */
@@ -616,4 +612,32 @@ margin: auto;
 .active:after {
   content: "\2796";
   /* Unicode character for "minus" sign (-) */
+}
+
+/* order shop page styling*/
+.button-div{
+  margin: 40px;
+  margin-left: 250px;
+}
+#items_table{
+  margin: 30px;
+  margin-left: 250px;
+}
+
+input[type=button] {
+  background-color: #060aee;
+  color: rgb(19, 17, 17);
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+  
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=button]:hover {
+	background:linear-gradient(to bottom, #14120f 5%, #624b2e 100%);
+	background-color:#191612;
 }
