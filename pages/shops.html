@@ -25,7 +25,31 @@
             </nav>
         </div>
     </header>
-    <h1>Welcome to online Shopping</h1> 
+    
+    <main>
+        <h1>Welcome to online order</h1> 
+        <form name="ShoppingList">
+            <fieldset>
+                <legend>Order cart</legend>
+                <label for="name">Item: <input type="text" placeholder="Select food item"></label>
+                <label for="name">Quantity: <input type="text" placeholder="Amount or number of order"></label>
+                <div class="button-div">
+                    <input type="button" value="Save"   onclick="alert('Save is clicked')">
+                    <input type="button" value="Update" onclick="alert('Update is clicked')">
+                    <input type="button" value="Delete" onclick="alert('Delete is clicked')">
+                </div>
+            </fieldset>
+            <div id="items_table">
+                <h2>Shopping List</h2>
+                <table id="list">
+                    <th>Table header</th>
+                    <tr>Table row</tr>
+                </table>
+                <label><input type="button" value="Clear" onclick="alert('Clear all clicked')">
+                * Delete all items</label>
+            </div>
+        </form>
+    </main>
     <footer class="footer">
         <p id="copyright">Copyright © ghh@sample Inc.<br>
             In conjunction with The Odin Project</p>
