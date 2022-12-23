@@ -525,7 +525,7 @@ input{
   background-color: #f2f2f2;
   padding: 20px;
 } 
-label{
+label[for=name]{
   margin-left: 250px;
 } 
 /* Style inputs with type="text", select elements and text areas */
