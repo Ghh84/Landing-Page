@@ -641,3 +641,42 @@ input[type=button]:hover {
 	background:linear-gradient(to bottom, #14120f 5%, #624b2e 100%);
 	background-color:#191612;
 }
+
+/* Styling career page*/
+.content-center{
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+}
+#controw
+{
+	color:#fff;
+	font-size:13px;
+	margin-top:50px;
+}
+#about
+{
+	color:#fff;
+	padding-top:8px;
+}
+#line
+{
+  margin-bottom: 10px;
+	width:800px;
+}
+@media (max-width: 400px) {
+  #line {
+    width:300px;
+  }
+}
+.content-center{
+  display: flex;
+  flex-direction: column;
+}
+div{
+  margin: 10px;
+}
+#footer-career{
+  position: fixed;
+  bottom: 0;
+}
