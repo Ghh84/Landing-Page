@@ -148,7 +148,7 @@ button:hover{
 
 .lower-body-content{
     background-image: url(./images/advertise.jpg);
-    height: 300px;
+    height: 400px;
     margin: 20px;
     padding: 10px;
 }
@@ -226,7 +226,7 @@ input{
     background-image: url(./images/advertise.jpg);
     border-bottom: 3px solid rgb(11, 11, 14);
     width: 200px;
-    height: 30px;
+    height: 40px;
 }
 .sub-btn-sec {
     display: flex;
@@ -352,7 +352,7 @@ input{
   */
 
   .login-body{
-    background-image: url(./images/thanksgiving.webp);
+    background-image: url(./images/greenBg.webp);
   }
 
   .login-form{
@@ -479,7 +479,7 @@ input{
 
   /* Style restaurant page*/
   .restaurant{
-    background-image: url(./images/index.jpeg);    
+    background-image: url(./images/greenBg.webp);    
     color: #0e0b03;
   }
   h1{
